@@ -1,0 +1,19 @@
+mkdir my_new_project
+cd my_new_project
+python3 -m venv .venv
+ls -la
+cd .venv
+source bin/activate
+pip3 -m install nornir (or other libraries)
+cd ..
+(get started working in my_new_project folder)
+
+cd .venv 
+deactivate
+
+note on gitbash
+py -3 -m venv venv
+source venv/Scripts/activate
+
+pip3 install -r requirements.txt
+
